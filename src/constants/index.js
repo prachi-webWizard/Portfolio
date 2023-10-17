@@ -24,6 +24,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  memoriesapp
 } from "../assets";
 
 export const navLinks = [
@@ -81,10 +82,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -199,9 +200,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Memories App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
     tags: [
       {
         name: "react",
@@ -212,12 +213,12 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "node",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: memoriesapp,
+    source_code_link: "https://github.com/prachi-webWizard/memories-social-media-app/tree/main",
   },
   {
     name: "Job IT",
