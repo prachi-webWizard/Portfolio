@@ -24,7 +24,8 @@ import {
   jobit,
   tripguide,
   threejs,
-  memoriesapp
+  memoriesapp,
+  chatbot
 } from "../assets";
 
 export const navLinks = [
@@ -221,47 +222,51 @@ const projects = [
     source_code_link: "https://github.com/prachi-webWizard/memories-social-media-app/tree/main",
   },
   {
-    name: "Job IT",
+    name: "Chat Bot",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Chat application integrated with OpenAI allows us to chat with AI bot, AI code and AI assistance. This also works as a messaging app.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "reduxtoolkit",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "node",
         color: "pink-text-gradient",
       },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "openAI",
+        color: "orange-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: chatbot,
+    source_code_link: "https://github.com/prachi-webWizard/chat-bot",
   },
+  // {
+  //   name: "Trip Guide",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

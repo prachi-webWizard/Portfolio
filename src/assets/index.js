@@ -31,6 +31,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import memoriesapp from "./Memories-app.png";
+import chatbot from "./chatbot.png";
 
 export {
   logo,
@@ -62,5 +63,6 @@ export {
   carrent,
   jobit,
   tripguide,
-  memoriesapp
+  memoriesapp,
+  chatbot
 };
