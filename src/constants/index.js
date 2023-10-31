@@ -48,12 +48,12 @@ const services = [
     title: "Web Developer",
     icon: web,
   },
-  // {
-  //   title: "React Native Developer",
-  //   icon: mobile,
-  // },
   {
-    title: "Backend Developer",
+    title: "React Developer",
+    icon: mobile,
+  },
+  {
+    title: "MERN Stack Developer",
     icon: backend,
   },
   // {
@@ -75,10 +75,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  // {
-  //   name: "TypeScript",
-  //   icon: typescript,
-  // },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
   {
     name: "React JS",
     icon: reactjs,
@@ -87,10 +87,10 @@ const technologies = [
     name: "Redux Toolkit",
     icon: redux,
   },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  // },
   {
     name: "Node JS",
     icon: nodejs,
@@ -107,10 +107,10 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
   // {
   //   name: "docker",
   //   icon: docker,
@@ -175,26 +175,26 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "Her ability to create beautiful, user-friendly websites that work seamlessly is a testament to your talent and dedication.",
+    name: "Vivek Gupta",
+    designation: "Software Engineer",
+    company: "Freespace",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "Her intuitive user interfaces and clean, efficient code make navigating websites a delightful experience. Appreciated!",
+    name: "Deepak Jain",
+    designation: "Senior Software Engineer",
+    company: "Freespace",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "Keep up the great work in delivering a fast and responsive website! Her commitment to optimizing performance has not gone unnoticed.",
+    name: "Vaishnavi T",
+    designation: "Senior Manager",
+    company: "ITLH",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
