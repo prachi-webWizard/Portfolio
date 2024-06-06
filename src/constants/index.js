@@ -19,6 +19,7 @@ import {
   starbucks,
   tesla,
   freespace,
+  fortray,
   shopify,
   carrent,
   jobit,
@@ -119,31 +120,30 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Project Administrator",
+    company_name: "Fortray Global Services, London",
+    icon: fortray,
+    iconBg: "#E6DEDD",
+    date: "Jun 2023 - Present",
+    points: [
+      "Collaborate with stakeholders to gather, analyze, and translate business requirements into technical specifications.",
+      "Develop server-side logic, APIs, and RESTful web services using languages like Node.js.",
+      "Implement security best practices to protect the website, optimize performance for speed and scalability.",
+    ],
+  },
+  {
     title: "Senior Software Engineer",
-    company_name: "Freespace",
+    company_name: "Freespace, India",
     icon: freespace,
     iconBg: "#383E56",
-    date: "June 2019 - Present",
+    date: "June 2019 - May 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participating in code reviews and providing constructive feedback to peer developers.",
     ],
   },
-  // {
-  //   title: "React Native Developer",
-  //   company_name: "Tesla",
-  //   icon: tesla,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2021 - Feb 2022",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
   // {
   //   title: "Web Developer",
   //   company_name: "Shopify",
