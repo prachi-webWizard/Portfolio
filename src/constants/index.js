@@ -120,7 +120,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Project Administrator",
+    title: "Full Stack Web Developer",
     company_name: "Fortray Global Services, London",
     icon: fortray,
     iconBg: "#E6DEDD",
