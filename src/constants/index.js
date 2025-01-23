@@ -26,7 +26,8 @@ import {
   tripguide,
   threejs,
   memoriesapp,
-  chatbot
+  chatbot,
+  webProjects
 } from "../assets";
 
 export const navLinks = [
@@ -246,27 +247,27 @@ const projects = [
     image: chatbot,
     source_code_link: "https://github.com/prachi-webWizard/chat-bot",
   },
-  // {
-  //   name: "Trip Guide",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
+  {
+    name: "20 Web Frontend Projects",
+    description:
+      "This project gets you build things from scratch and has some dynamic functionality from small games to expense tracker with no frameworks or libraries used, just pure basics!",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: webProjects,
+    source_code_link: "https://github.com/prachi-webWizard/20-mini-frontend-projects",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

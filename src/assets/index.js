@@ -33,6 +33,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import memoriesapp from "./Memories-app.png";
 import chatbot from "./chatbot.png";
+import webProjects from './20Web.png';
 
 export {
   logo,
@@ -66,5 +67,6 @@ export {
   jobit,
   tripguide,
   memoriesapp,
-  chatbot
+  chatbot,
+  webProjects
 };
