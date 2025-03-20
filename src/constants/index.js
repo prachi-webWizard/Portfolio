@@ -27,7 +27,7 @@ import {
   threejs,
   memoriesapp,
   chatbot,
-  webProjects
+  webProjects,
 } from "../assets";
 
 export const navLinks = [
@@ -125,7 +125,7 @@ const experiences = [
     company_name: "Fortray Global Services, London",
     icon: fortray,
     iconBg: "#E6DEDD",
-    date: "Jun 2023 - Present",
+    date: "Jun 2024 - Present",
     points: [
       "Collaborate with stakeholders to gather, analyze, and translate business requirements into technical specifications.",
       "Develop server-side logic, APIs, and RESTful web services using languages like Node.js.",
@@ -220,7 +220,8 @@ const projects = [
       },
     ],
     image: memoriesapp,
-    source_code_link: "https://github.com/prachi-webWizard/memories-social-media-app/tree/main",
+    source_code_link:
+      "https://github.com/prachi-webWizard/memories-social-media-app/tree/main",
   },
   {
     name: "Chat Bot",
@@ -266,7 +267,8 @@ const projects = [
       },
     ],
     image: webProjects,
-    source_code_link: "https://github.com/prachi-webWizard/20-mini-frontend-projects",
+    source_code_link:
+      "https://github.com/prachi-webWizard/20-mini-frontend-projects",
   },
 ];
 
